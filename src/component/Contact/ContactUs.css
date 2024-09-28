@@ -1,0 +1,83 @@
+
+.ContactUsHeading{
+    text-align: center;
+}
+
+.columnLeft, .columnRight{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.emailLinks{
+    color: lightgrey;
+    transition: 0.3s ease-in-out;
+
+}
+
+.emailLinks:hover{
+    color: black;
+}
+
+.contactUsImage{
+    width: 90%;
+    margin: 0 5% 0 5%;
+    border-radius: 3%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.content{
+    padding-left: 5%;
+}
+
+.inputField{
+    width: 90%;
+    height: 2rem;
+}
+
+label{
+    font-size: 1.9rem;
+}
+
+#detail{
+    width: 90%;
+    height: 5rem;
+}
+
+.nameField-1, .nameField-2{
+    width: 43%;
+    height: 2rem;
+    
+}
+
+.nameField-1{
+    margin-right: 2%;
+}
+
+.nameField-2{
+    margin-left: 1%;
+}
+
+.inputSubmit{
+    width: 20%;
+    height: 3rem;
+    transition: 0.3s ease-in-out;
+    margin: 0 40% 0 40%;
+    border: 2px solid black;
+}
+
+.inputSubmit:hover{
+    background-color: lightskyblue;
+}
+
+@media (max-width: 1000px) {
+
+    .columnLeft, .columnRight{
+        width: 100%;
+    }
+
+    .content{
+        width: 50%;
+    text-align: center;
+    padding: 0 25% 0 25%;
+    }
+}

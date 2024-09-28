@@ -1,0 +1,23 @@
+.container{
+    margin: 5rem;
+}
+
+.heading{
+    text-align: center;
+}
+
+.image img {
+    width: 30%;
+    margin: 0 35% 0 35%;
+    height: 30%;
+}
+
+article{
+    margin-top: 5rem;
+}
+
+article p {
+    text-align: justify;
+    margin: 0 20% 0 20%;
+    font-size: large;
+}

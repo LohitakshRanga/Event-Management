@@ -1,0 +1,19 @@
+.eventHeading{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.text{
+    text-align: center;
+    padding: 0 15% 0 15%;
+}
+
+.crprtEvent{
+    padding: 0 20% 0 20%;
+    width: 60%;
+}
+
+.content{
+    padding: 0 15% 0 15%;
+    text-align: justify;
+}
